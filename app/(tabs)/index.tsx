@@ -13,7 +13,7 @@ export default function HomeScreen() {
   const [count, setCount] = useState(0);
   const [boxOn, setBoxOn] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
-  const [selectedId, setSelectedId] = useState(null);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
 
   const data = [
     { id: '1', title: 'Apple' },
